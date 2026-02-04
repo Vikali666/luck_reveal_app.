@@ -1,0 +1,10 @@
+{
+  "folders": [
+    { "path": ".", "name": "luck_reveal_app" },
+    { "path": "android", "name": "android" }
+  ],
+  "settings": {
+    "java.import.gradle.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
+  }
+}

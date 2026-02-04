@@ -1,0 +1,109 @@
+generatedAt: "2026-02-01T09:13:27.831Z"
+rule: misc
+count: 10
+details:
+  code: undefined_identifier
+  source: dart
+  path: /home/vikali182/Escritorio/luck_reveal_app
+occurrences[10]:
+  - key: "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java:0:0:9"
+    file: android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+    line: 1
+    textRange:
+      startLine: 1
+      endLine: 1
+      startOffset: 0
+      endOffset: 1
+    message: "GeneratedPluginRegistrant.java is not on the classpath of project app, only syntax errors are reported"
+    severity: MAJOR
+    source: Java
+  - key: "lib/logic/match_logic.dart:0:7:4"
+    file: lib/logic/match_logic.dart
+    line: 1
+    textRange:
+      startLine: 1
+      endLine: 1
+      startOffset: 7
+      endOffset: 59
+    message: "The imported package 'shared_preferences' isn't a dependency of the importing package.\nTry adding a dependency for 'shared_preferences' in the 'pubspec.yaml' file."
+    severity: MINOR
+  - key: "lib/logic/match_logic.dart:0:7:0"
+    file: lib/logic/match_logic.dart
+    line: 1
+    textRange:
+      startLine: 1
+      endLine: 1
+      startOffset: 7
+      endOffset: 59
+    message: "Target of URI doesn't exist: 'package:shared_preferences/shared_preferences.dart'.\nTry creating the file referenced by the URI, or try using a URI for a file that does exist."
+    severity: BLOCKER
+  - key: "lib/logic/match_logic.dart:8:24:1"
+    file: lib/logic/match_logic.dart
+    line: 9
+    textRange:
+      startLine: 9
+      endLine: 9
+      startOffset: 24
+      endOffset: 41
+    message: "Undefined name 'SharedPreferences'.\nTry correcting the name to one that is defined, or defining the name."
+    severity: BLOCKER
+  - key: "lib/logic/match_logic.dart:23:26:2"
+    file: lib/logic/match_logic.dart
+    line: 24
+    textRange:
+      startLine: 24
+      endLine: 24
+      startOffset: 26
+      endOffset: 43
+    message: "Undefined name 'SharedPreferences'.\nTry correcting the name to one that is defined, or defining the name."
+    severity: BLOCKER
+  - key: "lib/logic/match_logic.dart:31:24:3"
+    file: lib/logic/match_logic.dart
+    line: 32
+    textRange:
+      startLine: 32
+      endLine: 32
+      startOffset: 24
+      endOffset: 41
+    message: "Undefined name 'SharedPreferences'.\nTry correcting the name to one that is defined, or defining the name."
+    severity: BLOCKER
+  - key: "lib/screens/slots_machine_screen.dart:161:38:5"
+    file: lib/screens/slots_machine_screen.dart
+    line: 162
+    textRange:
+      startLine: 162
+      endLine: 162
+      startOffset: 38
+      endOffset: 49
+    message: "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement."
+    severity: MINOR
+  - key: "lib/screens/slots_machine_screen.dart:214:54:6"
+    file: lib/screens/slots_machine_screen.dart
+    line: 215
+    textRange:
+      startLine: 215
+      endLine: 215
+      startOffset: 54
+      endOffset: 65
+    message: "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement."
+    severity: MINOR
+  - key: "lib/widgets/slot_machine.dart:64:59:7"
+    file: lib/widgets/slot_machine.dart
+    line: 65
+    textRange:
+      startLine: 65
+      endLine: 65
+      startOffset: 59
+      endOffset: 70
+    message: "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement."
+    severity: MINOR
+  - key: "pubspec.yaml:23:6:8"
+    file: pubspec.yaml
+    line: 24
+    textRange:
+      startLine: 24
+      endLine: 24
+      startOffset: 6
+      endOffset: 21
+    message: "The asset file 'assets/logo.png' doesn't exist.\nTry creating the file or fixing the path to the file."
+    severity: MAJOR

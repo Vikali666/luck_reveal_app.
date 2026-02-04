@@ -1,0 +1,29 @@
+{
+    "project_info": {
+        "project_number": "576313943154",
+        "project_id": "ruleta-6e430",
+        "storage_bucket": "ruleta-6e430.firebasestorage.app"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:576313943154:android:45a179d7618583f3cdceeb",
+                "android_client_info": {
+                    "package_name": "com.vikali182.luckreveal"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyC1y0CTcSZXnXet8w6a-1Tq9JcKymScACA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

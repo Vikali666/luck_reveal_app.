@@ -1,0 +1,28 @@
+Analyzing luck_reveal_app...                                    
+
+  error • There's no constant named 'mystic' in 'UserPlan' • lib/providers/user_provider.dart:81:32 • undefined_enum_constant
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/activities_screen.dart:67:30 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/activities_screen.dart:94:36 • deprecated_member_use
+   info • Invalid use of a private type in a public API • lib/screens/auth/login_screen.dart:7:3 • library_private_types_in_public_api
+   info • Invalid use of a private type in a public API • lib/screens/auth/register_screen.dart:7:3 • library_private_types_in_public_api
+  error • The named parameter 'isPremium' is required, but there's no corresponding argument • lib/screens/home_screen.dart:48:16 • missing_required_argument
+  error • The named parameter 'user' isn't defined • lib/screens/home_screen.dart:48:33 • undefined_named_parameter
+  error • The named parameter 'userProvider' isn't defined • lib/screens/home_screen.dart:48:45 • undefined_named_parameter
+  error • Directives must appear before any declarations • lib/screens/icebreaker_screen.dart:676:1 • directive_after_declaration
+  error • The name 'IcebreakerScreen' is already defined • lib/screens/icebreaker_screen.dart:678:7 • duplicate_definition
+warning • The declaration '_IcebreakerScreenState' isn't referenced • lib/screens/icebreaker_screen.dart:687:7 • unused_element
+  error • The name '_IcebreakerScreenState' is already defined • lib/screens/icebreaker_screen.dart:687:7 • duplicate_definition
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/icebreaker_screen.dart:782:69 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/icebreaker_screen.dart:787:42 • deprecated_member_use
+   info • Invalid use of a private type in a public API • lib/screens/match_result_screen.dart:87:3 • library_private_types_in_public_api
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/match_result_screen.dart:187:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/match_result_screen.dart:210:54 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/match_result_screen.dart:232:49 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/match_result_screen.dart:393:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/match_result_screen.dart:440:35 • deprecated_member_use
+warning • The value of the local variable 'currentUser' isn't used • lib/screens/match_result_screen.dart:630:11 • unused_local_variable
+   info • Don't invoke 'print' in production code • lib/services/analytics_service.dart:7:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/analytics_service.dart:13:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/analytics_service.dart:18:5 • avoid_print
+
+24 issues found. (ran in 3.3s)
