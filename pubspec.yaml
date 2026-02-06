@@ -1,46 +1,30 @@
 name: luck_reveal_app
-description: App de citas con sistema free/paid
+description: "Luck Reveal - App de citas místicas con Icebreaker"
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   
-  # Firebase Core
-  firebase_core: ^2.24.2
-  cloud_firestore: ^4.15.2
-  firebase_auth: ^4.16.0
-  firebase_storage: ^11.4.0
+  # UI & Animaciones
+  confetti: ^0.7.0
+  lottie: ^2.7.0
   
-  # Ads
-  google_mobile_ads: ^5.2.0
+  # HTTP para IA
+  http: ^1.1.0
   
-  # Geolocalización
-  geolocator: ^14.0.2
-  
-  # Estado
+  # State Management
   provider: ^6.1.1
   
-  # UI
-  cached_network_image: ^3.3.0
-  intl: ^0.19.0
-  lottie: ^3.3.2
-  animations: ^2.0.8
-  
-  # Storage & Media
-  shared_preferences: ^2.2.2
-  audioplayers: ^6.5.1
-  
   # Utilidades
-  uuid: ^4.5.2
-  image_picker: ^1.1.2
-  google_fonts: ^6.2.1
-  confetti: ^0.8.0
-  http: ^1.6.0
+  shared_preferences: ^2.2.2
+  
+  # Firebase
+  firebase_core: ^2.24.2
 
 dev_dependencies:
   flutter_test:
@@ -51,7 +35,12 @@ flutter:
   uses-material-design: true
   
   assets:
-    - assets/images/default_avatar.png
-    - assets/logo.png
-    - assets/audio/
+    - assets/images/
     - assets/animations/
+  
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter-Regular.ttf
+        - asset: fonts/Inter-Bold.ttf
+          weight: 700

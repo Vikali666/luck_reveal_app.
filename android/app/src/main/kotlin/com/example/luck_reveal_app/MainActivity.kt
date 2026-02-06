@@ -1,4 +1,4 @@
-package com.vikali182.luckreveal
+package com.example.luck_reveal_app
 
 import io.flutter.embedding.android.FlutterActivity
 
